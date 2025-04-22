@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3e7d9;
+            color: #3e3e3e;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff6ec;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .how-it-works {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .how-it-works div {
+            width: 30%;
+        }
+        ul {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
+        .form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .form input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form button {
+            grid-column: span 2;
+            padding: 12px;
+            background-color: #d4a373;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form button:hover {
+            background-color: #c18a60;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Planning a wedding? Let us handle the people behind the magic.</h1>
+        <p style="text-align:center;">Photographers, Chefs, Decorators, Servers — All in one place.</p>
+        <div style="text-align:center; margin: 20px 0;">
+            <button onclick="document.getElementById('form').scrollIntoView();">GET STARTED</button>
+        </div><div class="section">
+        <h2>HOW IT WORKS</h2>
+        <div class="how-it-works">
+            <div>
+                <p><strong>TELL US YOUR DREAM WEDDING</strong><br>Share your event date, budget & service needs</p>
+            </div>
+            <div>
+                <p><strong>WE HANDPICK THE BEST TEAM</strong><br>Our verified, experienced wedding professionals are assigned based on your style and location</p>
+            </div>
+            <div>
+                <p><strong>CELEBRATE STRESS-FREE</strong><br>You focus on memories, we handle the rest!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>SERVICES OFFERED</h2>
+        <ul>
+            <li>Wedding Photographers</li>
+            <li>Professional Chefs & Caterers</li>
+            <li>Food Servers & Helpers</li>
+            <li>Venue Decorators</li>
+            <li>Makeup Artists & Stylists</li>
+            <li>Light & Sound Setup</li>
+            <li>Verified Workers Only</li>
+            <li>Local + Reliable Service</li>
+            <li>Human Support on WhatsApp & Phone</li>
+            <li>One Stop for All Wedding Needs</li>
+            <li>Emotions & Quality, not just price</li>
+        </ul>
+    </div>
+
+    <div class="section" id="form">
+        <h2>BOOKING FORM</h2>
+        <form class="form">
+            <input type="text" placeholder="Event Date">
+            <input type="text" placeholder="Location">
+            <input type="text" placeholder="Service Needed">
+            <input type="text" placeholder="Budget">
+            <button type="submit">SUBMIT REQUEST</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
